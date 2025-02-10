@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Information</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Online T-Shirt Store</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#catalog">Catalog</a></li>
+                <li><a href="#cart">Cart</a></li>
+                <li><a href="#checkout">Checkout</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#admin">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="user-info">
+            <h2>Complete Your Registration</h2>
+            <form id="user-info-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" required>
+
+                <label for="country">Country:</label>
+                <input type="text" id="country" required>
+
+                <label for="state">State:</label>
+                <input type="text" id="state" required>
+
+                <label for="email">Email ID:</label>
+                <input type="email" id="email" required>
+
+                <label>
+                    <input type="checkbox" id="terms" required>
+                    I agree to the terms and conditions.
+                </label>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Online T-Shirt Store. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
